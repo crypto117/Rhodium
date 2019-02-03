@@ -22,7 +22,7 @@ const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
 const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
 const size_t   CRYPTONOTE_MAX_TX_SIZE                        = 1000000000;
-const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 18181; // PLe
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX       = 0x14d893; // Rhod
 const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 20;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 3 * DIFFICULTY_TARGET;
 const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT_V3         = 3 * DIFFICULTY_TARGET;
@@ -45,7 +45,7 @@ const unsigned EMISSION_SPEED_FACTOR                         = 22;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 /* Premine amount */
-const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(52500000000000000); //2.5%
+const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(0); 
 
 /* How to generate a premine:
 
@@ -180,7 +180,7 @@ const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "Plenteum";
+const char     CRYPTONOTE_NAME[]                             = "RhodiumCoin";
 
 const uint8_t  TRANSACTION_VERSION_1						= 1;
 const uint8_t  TRANSACTION_VERSION_2						= 2;
@@ -231,12 +231,12 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT = 2;
 
-const char     LATEST_VERSION_URL[] = "https://www.plenteum.com/latest.html";
-const std::string LICENSE_URL = "https://github.com/plenteum/plenteum/blob/master/LICENSE";
+const char     LATEST_VERSION_URL[] = "https://github.com/crypto117";
+const std::string LICENSE_URL = "https://github.com/rhodium/rhodium/blob/master/LICENSE";
 
 const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 {
-    {  0xa2, 0x7d, 0x4b, 0x2c, 0xcf, 0x52, 0x37, 0x41, 0x35, 0xf9, 0x41, 0xa4, 0xc6, 0xa1, 0x43, 0xa1  }
+    {  0xa4, 0x7e, 0x4c, 0x2e, 0xef, 0x48, 0x49, 0x50, 0x51, 0xf3, 0x56, 0xa7, 0xc3, 0xa7, 0x78, 0xc4  }
 };
 
 const char* const SEED_NODES[] = {
