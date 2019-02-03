@@ -1,4 +1,4 @@
-![logo_small_flat](https://user-images.githubusercontent.com/38456463/43392866-43c69cf4-93f5-11e8-81e2-3e3f81b6ca1d.png)
+![logo_small_flat](https://avatars2.githubusercontent.com/u/46241441?s=460&v=4)
 
 ### Master Build Status
 [![Build status](https://ci.appveyor.com/api/projects/status/yiyj95qfdgkpca39/branch/master?svg=true)](https://ci.appveyor.com/project/davehlong/plenteum/branch/master)
@@ -6,8 +6,8 @@
 
 ### What is Plenteum 
 
-Plenteum is a cryptonote based coin that aims to solve (at least) two significant problems in current implementations. 
-  1. Sustainability of future mining rewards
+Rhodium is a cryptonote based coin that aims to solve dust & transaction fee problems thanks to our friends from Plenteum. 
+  1. Future mining rewards will be sustainable
   2. Dust bloat in the blockchain and user wallets
 
 How do we do this? By removing fees from the blockchain, and accumulating a "DustFund" from transaction dust, instead of fees, we sustain the future viability of mining rewards, and lighten the chain for current transactions. 
@@ -46,7 +46,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./Plenteumd --version`
+- `./RhodiumCoind --version`
 
 ##### Ubuntu, using Clang
 
