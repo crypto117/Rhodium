@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The Plenteum Developers
-//
+// Copyright (c) 2019, Rhodium
 // Please see the included LICENSE file for more information.
 
 #pragma once
@@ -58,7 +58,7 @@ const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(0);
 --print-genesis-tx --genesis-block-reward-address <premine wallet address>
 
 For example:
-Plenteumd --print-genesis-tx --genesis-block-reward-address PLEv2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW
+RhodiumCoind --print-genesis-tx --genesis-block-reward-address Rhod2Fyavy8CXG8BPEbNeCHFZ1fuDCYCZ3vW5H5LXN4K2M2MHUpTENip9bbavpHvvPwb4NDkBWrNgURAd5DB38FHXWZyoBh4wW
 
 * Take the hash printed, and replace it with the hash below in GENESIS_COINBASE_TX_HEX
 
@@ -67,7 +67,7 @@ Plenteumd --print-genesis-tx --genesis-block-reward-address PLEv2Fyavy8CXG8BPEbN
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff00018080d5d58c8fa15d0249c633559a0c58ef4d0e28ded22382678cb7e9dcf098f486a93b5cf2a1fffe86210130ad8ce712c3fbde17ebb34bb3671132a4d1a57210e4f0919131cb090e2139de";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "011401ff0001b1fdad96c90e025664415f46f43d7b88bdf1a4f971a6ed85c54f0220967044cf6cb023a2b7cabe2101ec45c6af161f03689f0c0b193ab9eda5aa29e65d1a8c5eda97bad89ed799ea50";
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
    You can get this value by doing "print_block 2" in Plenteumd. It is used to know what timestamp
@@ -198,9 +198,9 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  100;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  44015;
-const int      RPC_DEFAULT_PORT                              =  44016;
-const int      SERVICE_DEFAULT_PORT                          =  8070;
+const int      P2P_DEFAULT_PORT                              =  8003;
+const int      RPC_DEFAULT_PORT                              =  8004;
+const int      SERVICE_DEFAULT_PORT                          =  8015;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -241,11 +241,8 @@ const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 
 const char* const SEED_NODES[] = {
   //add seed nodes
-  "miner.care:44015", //miner.care
-  "one.public.plenteum.com:44015", //Charlie
-  "ple.optimusblue.com:44015", //DeadSet
-  "three.seed.plenteum.com:44015", //DO Seed3
-  "two.seed.plenteum.com:44015", //DO Seed2
-  "four.seed.plenteum.com:44015" //Singapore
+  "138.68.251.64:8003", //rhodium1
+  "159.65.98.120:8003", //rhodium2
+  "206.189.162.11:8003", //rhodium3
 };
 } // CryptoNote
