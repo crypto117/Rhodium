@@ -70,8 +70,8 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `sudo pip install cmake`
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
-- `git clone -b master --single-branch https://github.com/plenteum/plenteum`
-- `cd plenteum`
+- `git clone -b master --single-branch https://github.com/crypto117/Rhodium.git
+- `cd Rhodium`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -80,7 +80,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./Plenteumd --version`
+- `./RhodiumCoind --version`
 
 ##### Generic Linux
 
