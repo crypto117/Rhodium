@@ -84,7 +84,8 @@ const size_t   CRYPTONOTE_DUST_DECIMAL_POINT                 = 8; //the decimal 
 
 //DustFund Parameters
 const uint64_t CRYPTONOTE_DUST_OUT_LIMIT					 = UINT64_C(1000000); //the limit up to which dust outs should be removed and contributed back to the dust fund
-const char CRYPTONOTE_DUST_OUT_ADDRESS[]					 = "PLeafjfpaRWEXR4artCAer4yZFzeq5mRrMaLByP7Rkf3FL1URKUrBnP3ppfL6LVgz4hJYwk6DebUxZq6aQKHa8eT5f1ycM7j7d";
+const char CRYPTONOTE_DUST_OUT_ADDRESS[]					 = "RhodSGmCyUnL7yTp8azUM2hYXkoxHQqRV69bjBxGenKrchYQMNVeTXdi55Z4tXp9qPQ3wnbj17BLR7BDYHyLB9x12beMVrbj8i
+";
 
 const uint64_t MINIMUM_FEE									 = UINT64_C(0); //0
 
