@@ -4,7 +4,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/yiyj95qfdgkpca39/branch/master?svg=true)](https://ci.appveyor.com/project/davehlong/plenteum/branch/master)
 [![Build status](https://travis-ci.com/plenteum/plenteum.svg?branch=master)](https://travis-ci.com/plenteum/plenteum)
 
-### What is Plenteum 
+### What is RhodiumCoin 
 
 Rhodium is a cryptonote based coin that aims to solve dust & transaction fee problems thanks to our friends from Plenteum. 
   1. Future mining rewards will be sustainable
