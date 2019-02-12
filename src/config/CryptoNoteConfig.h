@@ -246,5 +246,6 @@ const char* const SEED_NODES[] = {
   "206.189.162.11:8003", //rhodium3
   "165.227.215.103:8003", //eastcoast4
   "68.183.158.87:8003", //eastcoast5
+  "rhox.cryptonote.club:3333", //Jerry's awesome pool
 };
 } // CryptoNote
