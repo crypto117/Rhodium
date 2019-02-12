@@ -240,7 +240,7 @@ const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 };
 
 const char* const SEED_NODES[] = {
-  //Do Not Mine with these!!
+  //Only Mine To Pool!!
   "138.68.251.64:8003", //rhodium1
   "159.65.98.120:8003", //rhodium2
   "206.189.162.11:8003", //rhodium3
