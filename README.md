@@ -1,4 +1,4 @@
-![logo_small_flat](https://avatars2.githubusercontent.com/u/46241441?s=460&v=4)
+![logo_small_flat](https://avatars0.githubusercontent.com/u/46241441?s=400&u=17caaf8d1913aea122913a3590014c4f0c966818&v=4)
 
 ### Master Build Status
 [![Build status](https://ci.appveyor.com/api/projects/status/yiyj95qfdgkpca39/branch/master?svg=true)](https://ci.appveyor.com/project/davehlong/plenteum/branch/master)
