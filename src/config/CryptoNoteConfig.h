@@ -132,9 +132,9 @@ const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                = 0;
 const uint32_t UPGRADE_HEIGHT_V2                             = 1;
 const uint32_t UPGRADE_HEIGHT_V3                             = 2;
 const uint32_t UPGRADE_HEIGHT_V4                             = 3; // Upgrade height for CN-Lite Variant 1 switch.
-const uint32_t UPGRADE_HEIGHT_V5							 = 65500; // Upgrade height for DustFund V1.
-const uint32_t UPGRADE_HEIGHT_V6							 = 67500; // tx & block size issue fix.
-const uint32_t UPGRADE_HEIGHT_V7							 = 130000; // cn turtle.
+const uint32_t UPGRADE_HEIGHT_V5							 = 17000; // Upgrade height for DustFund V1.
+const uint32_t UPGRADE_HEIGHT_V6							 = 17010; // tx & block size issue fix.
+const uint32_t UPGRADE_HEIGHT_V7							 = 200000; // cn turtle.
 
 const uint32_t UPGRADE_HEIGHT_CURRENT                        = UPGRADE_HEIGHT_V7;
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90;               // percent
@@ -150,10 +150,10 @@ const uint64_t FORK_HEIGHTS[] =
     1,
     2,
     3,
-    65500, //first fork to introduce DUST fund
-	67500, //tx & block size issue fix
-	130000, //difficulty update 
-	200000 // dustfund v2 
+    17000, //first fork to introduce DUST fund
+	17010, //tx & block size issue fix
+	200000, //update to cn-turtle mining algo
+	500000 // dustfund v2 
 };
 
 /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
