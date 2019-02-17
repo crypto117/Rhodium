@@ -7,8 +7,8 @@ This is python3, so you might need to launch it with python3 makechange.py
 Make two wallets and fill one or both with some funds, or start mining to it.
 Open the wallets with walletd like so:
 
-./walletd -w walletA.wallet -p yourpass --rpc-password test --bind-port 8070
-./walletd -w walletB.wallet -p yourpass --rpc-password test --bind-port 8071
+./walletd -w walletA.wallet -p yourpass --rpc-password test --bind-port 8004
+./walletd -w walletB.wallet -p yourpass --rpc-password test --bind-port 8015
 
 Feel free to change these parameters if needed of course.
 
