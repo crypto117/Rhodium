@@ -2,7 +2,7 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The Plenteum Developers
 // Copyright (c) 2018, The Karai Developers
-//
+// Copyright (c) 2019, RhodiumCoin
 // Please see the included LICENSE file for more information.
 
 #include <config/CliHeader.h>
