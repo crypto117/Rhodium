@@ -241,7 +241,7 @@ const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 
 const char* const SEED_NODES[] = {
   //Only Mine To Pool!!
-  "207.154.234.178:8003", //Kamelz
+  "157.230.251.166:8003", //Kamelz
   "206.189.162.11:8003", //rhodium3
   "165.227.215.103:8003", //eastcoast4
   "68.183.158.87:8003", //eastcoast5
