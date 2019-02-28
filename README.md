@@ -99,7 +99,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./RhodiumCoind --version`
+- `./src/RhodiumCoind 
 
 #### OSX/Apple, using GCC
 
@@ -151,6 +151,8 @@ The binaries will be in the `src` folder when you are complete.
 
 
 #### Windows
+
+For those who are downloading the Windows extract than open RhodiumCoind file to start Daemon and than open zedwallet.exe file to open your wallet.
 
 ##### Prerequisites
 
